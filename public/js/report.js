@@ -1,0 +1,22 @@
+
+
+// API QUEUE
+
+process function() {
+
+	// GET LATEST QUEUE ITEM
+	
+	// VALIDATE QUEUE ITEM
+	
+	// SUBMIT API REQUEST
+	
+		// SUCCESS -> PROCESS DATA
+		
+			// SUBMIT AJAX REQUEST TO SAVE DATA TO SERVER
+			
+				// AJAX ERROR -> PAUSE PROCESSING
+			
+				// AJAX SUCCESS
+	
+}
+
