@@ -2,12 +2,19 @@
 
 class Report extends Controller {
 
+	function Report()
+	{
+		parent::Controller();
+		
+		// CHECK VALID LOGGED IN USER -
+	}
+	
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model('core');
 
-		// CHECK VALID LOGGED IN USER
+		// CHECK VALID LOGGED IN USER -
 		if (!$this->session->userdata('loggedin') AND $this->uri->segment(2) != 'login')
 		{
 			redirect('/login');
