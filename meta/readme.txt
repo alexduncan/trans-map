@@ -1,90 +1,95 @@
-<?php
+TRANS MAP - APPLICATION PLAN
 
 
-// DATA STRUCTURE
-// =================================================================================================
+DATA STRUCTURE
+=================================================================================================
 
 
-// List of Database Tables
-// -------------------------------------------------------------------------------------------------
-// 1. clients
-// 2. employees
-// 3. office_locations
-// 4. location_links
+List of Database Tables
+-------------------------------------------------------------------------------------------------
+1. clients
+2. employees
+3. office_locations
+4. location_links
 
 
-// DB TABLE : companies
-// -------------------------------------------------------------------------------------------------
-// company_id VARCHAR(100)
-// 
-
-
-// DB TABLE : employees
-// -------------------------------------------------------------------------------------------------
-// employee_id
-// firstname
-// lastname
-// email
-// company_id
-// latitude
-// longitude
-// tile_id
-
-
-// DB TABLE : office_locations
-// -------------------------------------------------------------------------------------------------
-// location_id
-// name
-// latitude
-// longitude
-// tile_id
-
-
-// DB TABLE : location_links
-// -------------------------------------------------------------------------------------------------
-// link_id
-// start_min_latitude INT index
-// start_max_latitude INT index
-// start_min_longitude INT index
-// start_max_longitude INT index
-// end_min_latitude INT index
-// end_max_latitude INT index
-// end_min_longitude INT index
-// end_max_longitude INT index
-// transport_method
-// transport_distance
-// transport_duration
-// transport_cost
-// transport_details
-// distance_crow
-// expiration
-// created
+DB TABLE : companies
+-------------------------------------------------------------------------------------------------
+company_id VARCHAR(100)
 
 
 
+DB TABLE : employees
+-------------------------------------------------------------------------------------------------
+employee_id
+firstname
+lastname
+email
+company_id
+latitude
+longitude
+tile_id
 
-// APP STRUCTURE
-// =================================================================================================
+
+DB TABLE : office_locations
+-------------------------------------------------------------------------------------------------
+location_id
+name
+latitude
+longitude
+tile_id
 
 
-// List of Controllers & Methods
-// -------------------------------------------------------------------------------------------------
+DB TABLE : location_links
+-------------------------------------------------------------------------------------------------
+link_id
+start_min_latitude INT index
+start_max_latitude INT index
+start_min_longitude INT index
+start_max_longitude INT index
+end_min_latitude INT index
+end_max_latitude INT index
+end_min_longitude INT index
+end_max_longitude INT index
+transport_method
+transport_distance
+transport_duration
+transport_cost
+transport_details
+distance_crow
+expiration
+created
 
-// report.php
-	// index
-	// return links
-	// save link
+
+
+
+APP STRUCTURE
+=================================================================================================
+
+
+List of Controllers & Methods
+-------------------------------------------------------------------------------------------------
+
+BACKEND 
+
+report.php
+	index
+	return links
+	save link
 	
-// survey.php
-	// display
-	// submit
+survey.php
+	display
+	submit
+
+FRONT END
+
+report.js
+	fetch
+	process
+	display
 	
 
-// List of Controllers & Methods
-// -------------------------------------------------------------------------------------------------
-	
-	
+List of Controllers & Methods
+-------------------------------------------------------------------------------------------------
 	
 
-
-?>

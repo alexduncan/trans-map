@@ -23,7 +23,7 @@ class Report extends Controller {
 	
 	function index()
 	{
-		$this->load->view('welcome_message');
+		// LOAD HTML
 	}
 	
 	
